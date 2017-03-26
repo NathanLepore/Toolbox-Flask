@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Post Login:</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <p> Profile </p>
+  <body>
+    <p> Name: {{name}} </p>
+    <p> Age: {{age}} </p>
+    <p> Favorite Ninja: {{ninja}} </p>
+
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+    </div>
+  </body>
+</html>
